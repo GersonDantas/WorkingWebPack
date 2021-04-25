@@ -1,15 +1,4 @@
-import React from "react";
-<<<<<<< HEAD
-const App = () => {
-  return (
-    <div>
-      <p>Digital Inovation one</p>
-      <p>Bem vindo doidão</p>
-    </div>
-  );
-};
 
-=======
 import Button from './Button';
 import {Card} from "./Card";
 const App = () => {
@@ -23,5 +12,4 @@ const App = () => {
     </div>
   );
 };
->>>>>>> be343a6 (commit upgrade webpack)
 export default App;
