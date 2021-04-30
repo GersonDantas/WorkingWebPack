@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-const path = require('path');
-
-module.exports = {
-  entry: './src/index.js',
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundler.js',
-=======
 const path = require('path')
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
@@ -16,23 +7,12 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundler.js'
->>>>>>> be343a6 (commit upgrade webpack)
   },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-<<<<<<< HEAD
-        use:
-        {
-          loader: "babel-loader",
-        },
-      }
-    ]
-  },
-};
-=======
         use: {
           loader: "babel-loader"
         }
@@ -46,5 +26,3 @@ module.exports = {
     })
   ]
 }
-
->>>>>>> be343a6 (commit upgrade webpack)
